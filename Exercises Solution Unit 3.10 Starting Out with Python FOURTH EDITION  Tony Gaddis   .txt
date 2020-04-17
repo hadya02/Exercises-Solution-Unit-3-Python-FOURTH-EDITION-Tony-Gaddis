@@ -1,0 +1,23 @@
+Money Counting Game
+Create a change-counting game that gets the user to enter the number of coins required
+to make exactly one dollar. The program should prompt the user to enter the number of
+pennies, nickels, dimes, and quarters. If the total value of the coins entered is equal to one
+dollar, the program should congratulate the user for winning the game. Otherwise, the
+program should display a message indicating whether the amount entered was more than
+or less than one dollar.
+
+
+pinnies=1
+nickle=2
+dimes=3
+quarter=4
+one_doller=pinnies+nickle+dimes+quarter
+pinnies=int(input("pinnies:"))
+nickle=int(input("nickle"))
+dimes=int(input("dimes"))
+quarter=int(input("quarter"))
+if pinnies==1 and nickle==2 and dimes==3 and quarter==4:
+    print("1 doller:",one_doller)
+    print("congraculations!")
+else:
+    print("error")

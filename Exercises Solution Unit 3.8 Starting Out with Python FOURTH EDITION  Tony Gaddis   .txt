@@ -1,0 +1,28 @@
+Hot Dog Cookout Calculator
+Assume hot dogs come in packages of 10, and hot dog buns come in packages of 8. Write a
+program that calculates the number of packages of hot dogs and the number of packages of
+hot dog buns needed for a cookout, with the minimum amount of leftovers. The program
+should ask the user for the number of people attending the cookout and the number of hot
+dogs each person will be given. The program should display the following details:
+•	 The minimum number of packages of hot dogs required
+•	 The minimum number of packages of hot dog buns required
+•	 The number of hot dogs that will be left over
+•	 The number of hot dog buns that will be left over
+
+guest=int(input("enter the number of guest"))
+eat=int(input("enter the number of each guest eat"))
+total=guest*eat
+print("total is :")
+print(total)
+leftover_hotdog=total//10
+print("leftover of hotdog " )
+print(leftover_hotdog)
+need_hotdog=total%10
+print("need_hotdog")
+print (need_hotdog)
+leftover_buns=total//8
+print("leftover buns ")
+print(leftover_buns)
+need_buns=total%8
+print("need_buns")
+print(need_buns)
